@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Live Hosting URL
 
 Not responsive for mobile yet. Please open in desktop.
-My apologies to all the mobile users 🙂
+My apologies to all the mobile users who tried to open this application 🙂
 
 liveURL: https://clone-d9d62.web.app
 

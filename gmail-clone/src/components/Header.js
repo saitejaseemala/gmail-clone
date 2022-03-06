@@ -9,7 +9,7 @@ import "../css/Header.css";
 import { useDispatch, useSelector } from "react-redux";
 import { selectUser } from "../features/userSlice";
 import { Avatar } from "@mui/material";
-import { auth } from "./firebase";
+import { auth } from "../config/firebase";
 import { logout } from "../features/userSlice";
 
 function Header() {

@@ -10,7 +10,7 @@ import "../css/App.css";
 import { useDispatch, useSelector } from "react-redux";
 import { selectSendMessageIsOpen } from "../features/mailSlice";
 import { selectUser } from "../features/userSlice";
-import { auth } from "./firebase";
+import { auth } from "../config/firebase";
 import { login } from "../features/userSlice";
 
 function App() {

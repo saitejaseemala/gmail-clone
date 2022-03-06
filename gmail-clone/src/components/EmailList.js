@@ -13,7 +13,7 @@ import PeopleIcon from "@mui/icons-material/People";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import EmailRow from "./EmailRow";
 import "../css/EmailList.css";
-import { db } from "./firebase";
+import { db } from "../config/firebase";
 
 function EmailList() {
   const [emails, setEmails] = useState([]);

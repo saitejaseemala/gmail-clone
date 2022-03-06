@@ -28,10 +28,9 @@ function App() {
             photoUrl: user.photoURL,
           })
         );
-      } else {
       }
     });
-  });
+  }, []);
 
   return (
     <Router>
